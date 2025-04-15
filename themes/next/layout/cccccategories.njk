@@ -1,0 +1,51 @@
+{# categories.swig #}
+{% extends '_layout.swig' %}
+
+{% block content %}
+  <style>
+  .categories-page
+    padding 2rem
+
+  .categories-list
+    display flex
+    flex-wrap wrap
+    justify-content space-between
+
+  .category-item
+    background-color #f5f5f5
+    border-radius 8px
+    box-shadow 0 2px 4px rgba(0, 0, 0, 0.1)
+    margin-bottom 1rem
+    padding 1rem
+    width calc(50% - 1rem)
+
+  .category-name
+    font-size 1.5rem
+    margin-bottom 0.5rem
+
+  .category-posts
+    list-style none
+    padding 0
+
+  .category-posts li
+    margin-bottom 0.5rem
+
+  </style>
+  <pre>{{ site.categories | json }}</pre>
+  <main class="content">
+    <div class="categories-page">
+      <h1 class="page-title">{{ page.title }}</h1>
+      <div class="categories-list">
+        {% for category in site.categories %}
+          <div class="category-item">
+            <h2 class="category-name">
+              {{ typeof(category) }}
+              {{ category.posts | json }}
+              <a href="/categories/{{ category.name }}/">{{ category.name + "haha" }}</a>
+            </h2>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </main>
+{% endblock %}

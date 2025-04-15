@@ -1,0 +1,31 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+base_info:
+  primary_color: "#0066cc"
+  title: Dante’ Blog
+  author: Dante
+  avatar: /images/shibainu_avatar.jpg
+  logo: /images/shibainu.png
+  favicon: /images/shibainu_nav.svg
+
+first_screen:
+  enable: true        # Option values: true | false
+  background_img: /images/bg.svg
+  background_img_dark: /images/bg.svg
+  description: Keep writing and Keep loving.
+  hitokoto: true      # Option values: true | false
+
+toc:
+  enable: true      # Option values: true | false
+  number: false      # Option values: true | false
+  expand_all: true  # Option values: true | false
+  init_open: true    # Option values: true | false
+  layout: right      # Option values: left | right
+  
+code_block:
+  tools:
+    enable: false             # Option values: true | false
+    style: default            # Option values: default | mac
+  highlight_theme: obsidian    # Option values: default | obsidian

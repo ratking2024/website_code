@@ -1,0 +1,133 @@
+Utils:
+  - name: Flaticon
+    desc: 免费图标
+    url: https://www.flaticon.com/
+    img: /images/sitemap/s_flaticon.png
+  - name: 文新一言
+    desc: Ai大模型
+    url: https://yiyan.baidu.com/
+    img: /images/sitemap/s_wxyy.jpg
+  - name: Tinypng
+    desc: 图片压缩
+    url: https://tinypng.com/
+    img: /images/sitemap/s_tinypng.jpg
+  - name: Unsplash
+    desc: 优质图片素材
+    url: https://unsplash.com/
+    img: /images/sitemap/s_unsplash.png
+  - name: AiImg
+    desc: 图片编辑
+    url: https://img.logosc.cn/
+    img: /images/sitemap/s_aiimg.png
+  - name: Undraw
+    desc: 主题矢量图标
+    url: https://undraw.co/illustrations
+    img: /images/sitemap/s_undraw.png
+  - name: Googlefont
+    desc: 谷歌字体下载
+    url: https://fonts.google.com/
+    img: /images/sitemap/s_googlefont.png
+  - name: 函数拟合
+    desc: 千千工具箱
+    url: https://qianqianquege.com/math
+    img: /images/sitemap/s_fx.png
+  - name: 二维码生成
+    desc: 千千工具箱
+    url: https://qianqianquege.com/qrcode
+    img: /images/sitemap/s_qrcode.png
+  - name: Pexels
+    desc: 优质图片素材
+    url: https://www.pexels.com/zh-cn/
+    img: /images/sitemap/s_pexels.png
+  - name: AntV
+    desc: 在线图表
+    url: https://ant-design-charts.antgroup.com/examples
+    img: /images/sitemap/s_antv.jpg
+  - name: Fontawesome
+    desc: 字符图标
+    url: https://fontawesome.com/search?m=free&o=r
+    img: /images/sitemap/s_fontawesome.png
+  - name: 在线RGB
+    desc: BEJSON工具集
+    url: https://www.bejson.com/convert/rgbhex/
+    img: /images/sitemap/s_rgb.png
+  - name: JSON格式化
+    desc: 菜鸟工具
+    url: https://www.jyshare.com/front-end/53/
+    img: /images/sitemap/s_rgb.png
+
+Magnet Search Engine:
+  - name: 83888.net
+    desc: desc
+    url: https://tophub.today/c/tech
+    img: /images/sitemap/s_jrrb.png
+  - name: Todose
+    desc: desc
+    url: https://tophub.today/c/tech
+    img: /images/sitemap/s_jrrb.png
+  - name: DownloadTro
+    desc: desc
+    url: https://tophub.today/c/tech
+    img: /images/sitemap/s_jrrb.png  
+  - name: 磁力多
+    desc: desc
+    url: https://tophub.today/c/tech
+    img: /images/sitemap/s_jrrb.png  
+  - name: 美剧迷
+    desc: desc
+    url: https://tophub.today/c/tech
+    img: /images/sitemap/s_jrrb.png  
+  - name: Todose
+    desc: desc
+    url: https://tophub.today/c/tech
+    img: /images/sitemap/s_jrrb.png
+  - name: DownloadTro
+    desc: desc
+    url: https://tophub.today/c/tech
+    img: /images/sitemap/s_jrrb.png  
+  - name: 磁力多
+    desc: desc
+    url: https://tophub.today/c/tech
+    img: /images/sitemap/s_jrrb.png  
+  - name: 磁力多
+    desc: desc
+    url: https://tophub.today/c/tech
+    img: /images/sitemap/s_jrrb.png  
+
+Infomation:
+  - name: 今日热榜
+    desc: desc
+    url: https://tophub.today/c/tech
+    img: /images/sitemap/s_jrrb.png
+  - name: 虎扑
+    desc: desc
+    url: https://github.com
+    img: /images/shibainu_avatar.jpg
+  - name: 不太灵影视
+    desc: desc
+    url: https://github.com
+    img: /images/shibainu_avatar.jpg
+  - name: 腾讯云
+    desc: desc
+    url: https://github.com
+    img: /images/shibainu_avatar.jpg
+  - name: GOAL
+    desc: desc
+    url: https://www.goal.com/en/premier-league/2kwbbcootiqqgmrzs6o5inle5
+    img: /images/shibainu_avatar.jpg
+  - name: NBAStats
+    desc: desc
+    url: https://github.com
+    img: /images/shibainu_avatar.jpg
+  - name: 得到
+    desc: desc
+    url: https://github.com
+    img: /images/shibainu_avatar.jpg
+  - name: 极客时间
+    desc: desc
+    url: https://github.com
+    img: /images/shibainu_avatar.jpg
+  - name: AIGC聚合入口
+    desc: desc
+    url: https://www.aigc.cn/
+    img: /images/shibainu_avatar.jpg

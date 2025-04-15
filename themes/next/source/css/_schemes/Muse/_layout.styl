@@ -1,0 +1,30 @@
+.header-inner, .main-inner, .footer-inner {
+  +mobile() {
+    width: auto;
+  }
+}
+
+.header-inner {
+  padding-top: 40px;
+
+  +mobile() {
+    padding-top: 30px;
+  }
+}
+
+.main-inner {
+  padding-bottom: 20px;
+}
+
+.content {
+  padding-top: 10px;
+
+  +mobile() {
+    padding-top: 20px;
+  }
+}
+
+embed {
+  display: block;
+  margin: 0 auto 25px auto;
+}
