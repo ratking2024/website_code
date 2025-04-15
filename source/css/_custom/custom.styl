@@ -44,9 +44,27 @@ h1 {
   font-weight: bold;
 }
 
+p:lang(en) {
+    font-family: 'EnglishFont';
+}
+
+p {
+    font-family: 'ChineseFont';
+}
+
 @font-face {
-  font-family: 'Poetsen One';
-  src: url('/fonts/PoetsenOne-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Poetsen One';
+    src: url('/fonts/PoetsenOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EnglishFont';
+    src: url('/fonts/PoetsenOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ChineseFont';  
+    src: url('/fonts/MaShanZheng-Regular.ttf') format('truetype');
 }

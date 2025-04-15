@@ -440,13 +440,13 @@ font:
   # Global font settings used for all elements inside <body>.
   global:
     external: false
-    family: 'Poetsen One'
+    family: 'Ma Shan Zheng'
     size:
 
   # Font settings for site title (.site-title).
   title:
     external: false
-    family: 'Poetsen One'
+    family: 'PT Mono'
     size:
 
   # Font settings for headlines (<h1> to <h6>).
