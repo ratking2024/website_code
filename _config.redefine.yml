@@ -64,14 +64,14 @@ index_generator:
   per_page: 10
   order_by: -date
 info:
-    title: DanteBlog
+    title: DanteSite
     author: Dante
 defaults:
     logo: /images/shibainu.png
     favicon: /images/shibainu_nav.svg
     avatar: /images/shibainu_avatar.jpg
 home_banner:
-    title: Dante‘s Blog
+    title: Dante‘s Site
     subtitle: okk
 global:
     content_max_width: 1000px
