@@ -1,16 +1,19 @@
 body {
   background: url('/images/bg.svg') no-repeat center center fixed;
   background-size: cover;
+  font-family: 'MaShanZheng', 'PoetsenOne', sans-serif;
 }
 
 .post-block {
   background: white;
   padding: 10px; 
+  font-family: 'MaShanZheng', 'PoetsenOne', sans-serif;
 }
 
 .post-body {
   background: white;
   padding: 10px; 
+  font-family: 'MaShanZheng', 'PoetsenOne', sans-serif;
 }
 
 /* 减少按钮与自定义内容之间的间距 */
@@ -23,7 +26,8 @@ body {
 }
 
 code {
-  color: #008B45
+  font-family: 'PoetsenOne', monospace;
+  color: #008B45;
   white-space: pre-wrap; /* 允许自动换行并保持空白符 */
   word-break: break-all; /* 可以在单词内换行 */
 }
@@ -31,32 +35,37 @@ code {
 /* 设置所有 Markdown 标题的颜色 */
 h3,h4,h5 {
   color: #ff9900; /* 替换为你想要的颜色 */
+  color:rgb(2, 61, 149); /* 替换为你想要的颜色 */
+  font-family: 'MaShanZheng', 'PoetsenOne', sans-serif;
 }
 
 h1 {
   font-weight: bold // 设置为加粗
   letter-spacing: 0.1em // 增加文字间隔，可根据喜好调整
+  font-family: 'MaShanZheng', 'PoetsenOne', sans-serif;
 }
 
 /* 设置正文中超链接的颜色和加粗 */
 .post-body a {
   color: #1169ee; /* 替换为你想要的颜色 */
   font-weight: bold;
-}
-
-p:lang(en) {
-    font-family: 'EnglishFont';
-}
-
-p {
-    font-family: 'ChineseFont';
+  font-family: 'MaShanZheng', 'PoetsenOne', sans-serif;
 }
 
 @font-face {
-    font-family: 'Poetsen One';
+    font-family: 'PoetsenOne';
     src: url('/fonts/PoetsenOne-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'MaShanZheng';
+    src: url('/fonts/NotoSerifSC-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF, U+2A700-2B73F, U+2B740-2B81F, U+2B820-2CEAF, U+F900-FAFF;
 }
 
 @font-face {
