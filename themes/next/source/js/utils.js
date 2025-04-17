@@ -209,13 +209,22 @@ NexT.utils = {
   },
 
   registerActiveMenuItem: function() {
+    let hasActiveMenuItem = false;
     document.querySelectorAll('.menu-item').forEach(element => {
       var target = element.querySelector('a[href]');
       if (!target) return;
       var isSamePath = target.pathname === location.pathname || target.pathname === location.pathname.replace('index.html', '');
       var isSubPath = !CONFIG.root.startsWith(target.pathname) && location.pathname.startsWith(target.pathname);
-      element.classList.toggle('menu-item-active', target.hostname === location.hostname && (isSamePath || isSubPath));
+      const isActive = target.hostname === location.hostname && (isSamePath || isSubPath);
+      element.classList.toggle('menu-item-active', isActive);
+      if (isActive) hasActiveMenuItem = true;
     });
+
+    // 如果没有激活的菜单项，隐藏整个菜单模块
+    const siteNav = document.querySelector('.site-nav');
+    if (siteNav) {
+      siteNav.style.display = hasActiveMenuItem ? 'block' : 'none';
+    }
   },
 
   registerLangSelect: function() {
