@@ -1,5 +1,5 @@
 ---
-title: 纯 Dart 语言 Flutter 动态化实践
+title: 美团外卖 Flutter 动态化实践
 date: 2020-06-24
 categories: MTBlog
 id: 2020flap

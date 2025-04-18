@@ -34,6 +34,7 @@
         {%- if firstImage %}
           <div class="post-thumbnail">
             <img src="{{ url_for(firstImage) }}" alt="{{ post.title | escape }}" class="thumbnail-image">
+            <img src="{{ url_for(firstImage) }}" alt="{{ post.title | escape }}" class="preview-image">
           </div>
         {%- endif %}
       </div>
