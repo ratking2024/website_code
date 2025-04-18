@@ -1,9 +1,16 @@
 ---
 title: Category 特性在组件化中的应用于管控
-date: 2015-09-19
+date: 2018-11-08
 categories: MTBlog
-id: blog005
+id: 2018cate
+tags: [工程化,组件化,前端]
+excerpt: Category 是 Objective-C 2.0之后添加的语言特性。随着移动互联网的快速发展，不断迭代的移动端工程往往面临着耦合严重、维护效率低、开发不够敏捷等常见问题，因此越来越多的公司开始推行“组件化”，通过解耦重组组件来提高并行开发效率。但是大多数团队口中的“组件化”就是把代码分库，主工程使用 CocoaPods 工具把各个子库的版本号聚合起来。但能合理的把组件分层，并且有一整套工具链支撑发版与集成的公司较少，导致开发效率很难有明显地提升。
 ---
 
-包括 Android/iOS/RN/Flutter
-默认文案
+Category 是 Objective-C 2.0之后添加的语言特性。随着移动互联网的快速发展，不断迭代的移动端工程往往面临着耦合严重、维护效率低、开发不够敏捷等常见问题，因此越来越多的公司开始推行“组件化”，通过解耦重组组件来提高并行开发效率。但是大多数团队口中的“组件化”就是把代码分库，主工程使用 CocoaPods 工具把各个子库的版本号聚合起来。但能合理的把组件分层，并且有一整套工具链支撑发版与集成的公司较少，导致开发效率很难有明显地提升。
+
+(本文是博主在其他正式博客组织发布的文章，直接添加外链)<br >
+美团技术博客原文：[《Category 特性在 iOS 组件化中的应用与管控》](https://tech.meituan.com/2018/11/08/ios-category-module-communicate.html)<br />
+微信公众号原文：[《Category 特性在 iOS 组件化中的应用与管控》](https://mp.weixin.qq.com/s/5ucpVa6ku4b9_pfMP9CqlQ)
+
+<img src="/images/blog/2018cate/2018cate_01.png" alt="home" width="500"/>

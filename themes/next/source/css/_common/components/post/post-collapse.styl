@@ -129,10 +129,14 @@
   .post-title-and-thumbnail {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    min-height: 100px;
   }
 
   .post-title-and-excerpt {
-    flex-grow: 1;
+    flex: 1;
+    min-width: 0;
+    margin-right: 20px;
 
     .post-excerpt {
       font-size: 0.9em;
@@ -140,18 +144,25 @@
       margin-top: 5px;
       margin-bottom: 5px;
       line-height: 1.4;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
     }
   }
 
   .post-thumbnail {
-    margin-left: 20px;
-    align-self: flex-start;
+    flex: 0 0 150px;
+    width: 150px;
+    height: 100px;
   }
 
   .thumbnail-image {
-    width: 150px;
-    height: auto;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
     object-fit: cover;
+    display: block;
   }
 }
