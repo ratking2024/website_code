@@ -1,12 +1,20 @@
 Utils:
+  - name: 讯飞星火
+    desc: Ai大模型
+    url: https://xinghuo.xfyun.cn/desk
+    img: /images/sitemap/s_xfxh.png
+  - name: 腾讯混元
+    desc: Ai大模型
+    url: https://yuanbao.tencent.com/chat/
+    img: /images/sitemap/s_txhy.png
+  - name: 文心一言
+    desc: Ai大模型
+    url: https://yiyan.baidu.com/
+    img: /images/sitemap/s_wxyy.jpg
   - name: Flaticon
     desc: 免费图标
     url: https://www.flaticon.com/
     img: /images/sitemap/s_flaticon.png
-  - name: 文新一言
-    desc: Ai大模型
-    url: https://yiyan.baidu.com/
-    img: /images/sitemap/s_wxyy.jpg
   - name: Tinypng
     desc: 图片压缩
     url: https://tinypng.com/
@@ -54,80 +62,84 @@ Utils:
   - name: JSON格式化
     desc: 菜鸟工具
     url: https://www.jyshare.com/front-end/53/
-    img: /images/sitemap/s_rgb.png
-
-Magnet Search Engine:
-  - name: 83888.net
-    desc: desc
-    url: https://tophub.today/c/tech
-    img: /images/sitemap/s_jrrb.png
-  - name: Todose
-    desc: desc
-    url: https://tophub.today/c/tech
-    img: /images/sitemap/s_jrrb.png
-  - name: DownloadTro
-    desc: desc
-    url: https://tophub.today/c/tech
-    img: /images/sitemap/s_jrrb.png  
-  - name: 磁力多
-    desc: desc
-    url: https://tophub.today/c/tech
-    img: /images/sitemap/s_jrrb.png  
-  - name: 美剧迷
-    desc: desc
-    url: https://tophub.today/c/tech
-    img: /images/sitemap/s_jrrb.png  
-  - name: Todose
-    desc: desc
-    url: https://tophub.today/c/tech
-    img: /images/sitemap/s_jrrb.png
-  - name: DownloadTro
-    desc: desc
-    url: https://tophub.today/c/tech
-    img: /images/sitemap/s_jrrb.png  
-  - name: 磁力多
-    desc: desc
-    url: https://tophub.today/c/tech
-    img: /images/sitemap/s_jrrb.png  
-  - name: 磁力多
-    desc: desc
-    url: https://tophub.today/c/tech
-    img: /images/sitemap/s_jrrb.png  
+    img: /images/sitemap/s_jsonfmt.png
+  - name: 控制台
+    desc: 域名/CDN/TLS
+    url: https://console.cloud.tencent.com/
+    img: /images/sitemap/s_txcloud.png
 
 Infomation:
   - name: 今日热榜
-    desc: desc
+    desc: 聚合热搜
     url: https://tophub.today/c/tech
     img: /images/sitemap/s_jrrb.png
   - name: 虎扑
-    desc: desc
-    url: https://github.com
-    img: /images/shibainu_avatar.jpg
+    desc: 步行街
+    url: https://nba.hupu.com/
+    img: /images/sitemap/s_hupu.jpg
   - name: 不太灵影视
-    desc: desc
-    url: https://github.com
-    img: /images/shibainu_avatar.jpg
-  - name: 腾讯云
-    desc: desc
-    url: https://github.com
-    img: /images/shibainu_avatar.jpg
+    desc: 4k电影需梯子
+    url: http://www.4bt0.com/
+    img: /images/sitemap/s_4k.png
+  - name: 腾讯云门户
+    desc: 买域名入口
+    url: https://dnspod.cloud.tencent.com/
+    img: /images/sitemap/s_txcloud.png
   - name: GOAL
-    desc: desc
+    desc: 足球信息资讯
     url: https://www.goal.com/en/premier-league/2kwbbcootiqqgmrzs6o5inle5
-    img: /images/shibainu_avatar.jpg
+    img: /images/sitemap/s_uefa.png
   - name: NBAStats
-    desc: desc
-    url: https://github.com
-    img: /images/shibainu_avatar.jpg
+    desc: 篮球信息资讯
+    url: https://www.nba.com/stats
+    img: /images/sitemap/s_nbastats.png
   - name: 得到
-    desc: desc
-    url: https://github.com
-    img: /images/shibainu_avatar.jpg
+    desc: 30分钟听书
+    url: https://www.igetget.com/
+    img: /images/sitemap/s_dedao.jpg
   - name: 极客时间
-    desc: desc
-    url: https://github.com
-    img: /images/shibainu_avatar.jpg
-  - name: AIGC聚合入口
-    desc: desc
+    desc: 长时间课程
+    url: https://u.geekbang.org/
+    img: /images/sitemap/s_geek.png
+  - name: AIGC汇总
+    desc: 聚合入口
     url: https://www.aigc.cn/
-    img: /images/shibainu_avatar.jpg
+    img: /images/sitemap/s_aigc.png
+
+Magnet Search Engine:
+  - name: 83888.net
+    desc: 需梯子/中文
+    url: https://838888.net/
+    img: /images/sitemap/s_ magnet.png
+  - name: idodose
+    desc: 更新实时/中文
+    url: https://idope.se/
+    img: /images/sitemap/s_ magnet.png
+  - name: DownloadTro
+    desc: 需梯子/英文
+    url: https://www.torrentdownloads.pro/
+    img: /images/sitemap/s_ magnet.png  
+  - name: Torlock
+    desc: 需梯子
+    url: https://www.torlock.com/
+    img: /images/sitemap/s_ magnet.png  
+  - name: 美剧迷
+    desc: 美剧剧集
+    url: https://tophub.today/c/tech
+    img: /images/sitemap/s_ magnet.png  
+  - name: Piratebay
+    desc: 需梯子/资源多
+    url: https://thepiratebay.org/
+    img: /images/sitemap/s_ magnet.png
+  - name: 备用链接
+    desc: 
+    url: https://tophub.today/c/tech
+    img: /images/sitemap/s_ magnet.png  
+  - name: 备用链接
+    desc: 
+    url: https://838888.net/
+    img: /images/sitemap/s_ magnet.png  
+  - name: 备用链接
+    desc: 
+    url: https://838888.net/
+    img: /images/sitemap/s_ magnet.png  
